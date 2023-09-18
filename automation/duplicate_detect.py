@@ -26,7 +26,7 @@ def find_duplicate(path):
 
     if exists:
         for dir_name, sub_dir, file_list in os.walk(path):
-            print("Current Folder is: " + dir_name)
+            # print("Current Folder is: " + dir_name)
             for file_n in file_list:
                 path = os.path.join(dir_name, file_n)
                 file_hash = hash_file(path)
