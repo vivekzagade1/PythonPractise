@@ -4,6 +4,7 @@ class Demo:
     def __init__(self, val1, val2):
         self.no1 = val1
         self.no2 = val2
+        self.no3 = 54
 
     def fun(self):
         print(self.no1)
@@ -17,6 +18,7 @@ class Demo:
 def main():
     obj1 = Demo(11, 21)
     obj2 = Demo(51, 101)
+    print(obj1.no3)
 
     obj1.gun()
     obj1.fun()
